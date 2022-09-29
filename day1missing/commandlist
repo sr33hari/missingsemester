@@ -1,0 +1,12 @@
+#list of commands executed
+touch missing/semester
+cd missing
+vi semester
+sudo ./missing/semester
+./semester
+chmod o+rx semester
+./semester
+sudo ./semester | grep -i last-modified > ~/projects/last-modified.txt
+mv last-modified.txt missing
+chmod 777 missing
+
